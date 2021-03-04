@@ -1,5 +1,5 @@
 var years =[1900,1965,1937,2005,2001];
-function arrayCalc(array , fn){
+function arrayCalc(array , fn){ 
     var arrayRes=[]; 
     for (var i =0 ; i< array.length ; i++){
         arrayRes.push(fn(array[i]))
