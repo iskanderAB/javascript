@@ -1,26 +1,16 @@
-import axios from "axios";
+import search from './Models/Search.js';
+const state = {};
 
 
-let getResults = async (query) => {
-    try{
-        await axios.get('https://recipe-puppy.p.rapidapi.com/',{
-            params: {
-                p: '1',
-                i: 'onions,garlic',
-                q: query
-            },
-            headers : {
-                'x-rapidapi-key': '4b17ca5fd8msh6d0480450ca5b38p12d4bajsnf42018dbe4ec',
-                'x-rapidapi-host': 'recipe-puppy.p.rapidapi.com'
-            }
-        }).then(response => {
-            console.log(response.data.results);
-        }).catch(function (error) {
-            console.error(error);
-        });
-    }catch (error){
-        console.log(error);
-    }
+
+const controllerSearch = async () => {
+    const query = 'pizza' ;
+    state.search= new search();
+    await state.search.getResults();
+    console.log(state.search.results);
 }
+document.querySelector('.search').addEventListener('submit',(e)=>{
+    e.preventDefault();
 
-getResults("pizza");
+    controllerSearch();
+});
