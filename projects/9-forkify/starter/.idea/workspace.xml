@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319a1f47-ad38-475a-a71d-66e3a11c01a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/Views/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/services/getView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/global.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Models/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Models/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Views/SearchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Views/SearchView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Views/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Views/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +33,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="319a1f47-ad38-475a-a71d-66e3a11c01a5" name="Default Changelist" comment="" />
@@ -52,11 +61,12 @@
       <workItem from="1615932206903" duration="4357000" />
       <workItem from="1615973190990" duration="6189000" />
       <workItem from="1616009481459" duration="3085000" />
+      <workItem from="1616082958669" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616008050305">
@@ -67,9 +77,33 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1615903872527" />
+    <state x="132" y="1" key="CommitChangelistDialog2" timestamp="1616085141901">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="132" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1616085141901" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1616083099097">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1616083099097" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1616083099096">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1616083099096" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1616083099095">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1616083099095" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1616083099097">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1616083099097" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1615980374707">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1615980374707" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1616085189836">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1616085189836" />
   </component>
 </project>

@@ -1,8 +1,9 @@
 import axios from "axios";
 import {getQuerySearched} from '../Views/SearchView';
 export default class  Search {
-    constructor(query) {
+    constructor() {
         this.query = getQuerySearched();
+        console.log(this.query);
     }
     async getResults () {
         try{
